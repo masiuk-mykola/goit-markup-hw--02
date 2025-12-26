@@ -1,208 +1,96 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
-
 a {
   text-decoration: none;
 }
-
-.hugetitle {
-  background-color: #2E2F42;
+ul {
+  list-style: none;
 }
 
-.page-title {
-  font-family: "Roboto";
-  background-color: #2E2F42;
-  color: hsl(0, 100%, 100%);
-  font-size: 56px;
-  font-weight: bold;
-  text-align: center;
-  line-height: 60px;
-  letter-spacing: 2%;
-}
-
-.page-subtitle {
-  font-family: "Roboto";
-  background-color: white;
-  color: #2e2f42;
-  font-size: 36px;
+.logo {
+  font-size: 18px;
+  font-style: normal;
   font-weight: 700;
-  text-align: left;
-  letter-spacing: 2%;
-}
-
-.page-header {
-  font-family: "Railway";
-  background-color: #FFFFF;
-  color: blue;
-  font-size: 16px;
-  text-align: justify;
-  line-height: 24px;
-  letter-spacing: 2%;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
   text-decoration: none;
+  color: #4d5ae5;
 }
-
-
-.page-header >a{
-  font-family: "Railway";
-  background-color: #FFFFF;
+.header-logo .logo-part {
   color: #2e2f42;
+}
+
+.nav-link {
   font-size: 16px;
-  text-align: justify;
-  line-height: 24px;
-  letter-spacing: 2%;
-  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: #2e2f42;
 }
-.page-contacts >a{
-  font-family: "Roboto";
-    background-color: #FFFFF;
-    color: #434455;
-    height: 24;
-    width: 48;
-    font-size: 16px;
-    text-align: right;
-    line-height: 24px;
-    letter-spacing: 2%;
-  text-decoration: none;
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
 }
-
-
-.site-nav .link {
-  font-family: "Roboto";
-  background-color: #FFFFF;
+.contacts {
+  font-style: normal;
+}
+.contacts-link {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
   color: #434455;
-  height: 24;
-  width: 48;
-  font-size: 16px;
-  font-weight: 500;
-  text-align: right;
-  line-height: 24px;
-  letter-spacing: 2%;
+}
+.contacts-link:hover,
+.contacts-link.focus {
+  color: #404bbf;
+}
+.hero-title {
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  background-color: #2e2f42;
 }
 
-.link:hover, .link:active
-{
-color: #404BBF;
-  }
-
-li {
-  list-style: none;  
+/* Team */
+.team {
+  background-color: #f4f4fd;
 }
+/*! Portfolio */
 
-.company-principles .sub-item {
-  font-family: "Roboto";
-  background-color: #FFFFF;
-  color: inherit;
-  font-size: 16px;
-  font-weight: 500;
-  text-align: :left;
-  line-height: 20px;
-  letter-spacing: 2%;
-  }
-
-
-
-.our-team .sub-item {
-  font-family: "Roboto";
-  background-color: #FFFFF;
-  color: #2E2F42;
-  font-size: 16px;
-  font-style: regular;
-  font-weight: 500;
-  text-align: : centre;
-  line-height: 24px;
-  letter-spacing: 2%;
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
-
-.duty {
-  
-  background-color: #FFFFF;
-  color: #434455;
-  font-size: 14px;
-  font-style: medium;
-  font-weight: 500;
-  text-align: : centre;
-  line-height: 24px;
-  letter-spacing: 2%;
+/*footer*/
+.footer-logo .logo-part {
+  color: #2e2f42;
 }
-
-.sub-title {
-  
-  background-color: #FFFFF;
-  color: #2E2F42;
-  font-size: 36px;
-  font-weight: bold;
-  text-align: : centre;
-  line-height: 40px;
-  letter-spacing: 2%;
-}
-
-
-
-.page-button {
-  
-  background-color: #4D5AE5;
-  color: white;
-  font-size: 16px;
-  font-weight: 500;
-  text-align: centre;
-  line-height: 24px;
-  letter-spacing: 4%;
-  border: 1px white;
-  cursor: pointer;
-}
-
-.page-button:hover {
-  color: #404BBF;
-}
-.page-button:focus {
-  background-color: #4D5AE5;
-}
-
-.portfolio >li .sub-item{
-  
-    background-color: #FFFFF;
-    color: #2E2F42;
-    font-size: 18px;
-    font-weight: 500;
-    text-align: : centre;
-    line-height: 18px;
-    letter-spacing: 1;
-}
-
-
 footer {
-  font-family: "Railway";
   background-color: #2e2f42;
-  color: blue;
-  font-size: 18px;
-  text-align: justify;
-  line-height: 24px;
-  letter-spacing: 2%;
-  text-decoration: none;
-  
 }
-
-footer > a {
-  font-family: "Railway";
-  background-color: #2e2f42;
-  color: white;
-  font-size: 18px;
-  font-weight: bold;
-  text-align: justify;
-  line-height: 21px;
-  letter-spacing: 3%;
-  }
-
-footer .text{
-  
-  background-color: #2e2f42;
-  color: white;
-  font-size: 18px;
-  font-weight: medium;
-  text-align: justify;
-  line-height: 21px;
-  letter-spacing: 3%;
-  }
-
-  
+.hero-btn {
+  background-color: #4d5ae5;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
