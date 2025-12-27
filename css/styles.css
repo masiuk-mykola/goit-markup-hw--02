@@ -193,7 +193,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-color);
+  color: #4d5ae5;
   text-decoration: none;
   margin-bottom: 16px;
 }
