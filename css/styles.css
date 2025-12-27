@@ -193,13 +193,14 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #var(--primary-color);
+  color: var(--primary-color);
   text-decoration: none;
   margin-bottom: 16px;
 }
 
 .logo-studio {
   color: #f4f4fd;
+  text-transform: uppercase;
 }
 
 .footer-text {
