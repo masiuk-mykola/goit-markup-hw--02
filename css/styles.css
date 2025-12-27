@@ -1,10 +1,25 @@
+:root {
+  --primary-color: #4d5ae5;
+  --secondary-color: #434455;
+  --accent-color: #404bbf;
+  --container-color: #f5f4fa;
+  --footer-color: #2f303a;
+  --text-color: #2e2f42;
+  --text-color-light: #757575;
+  --text-color-white: #ffffff;
+
+  /*========== font  ==========*/
+  --body-font: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--body-font);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 2%;
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--secondary-color);
+  background-color: var(--text-color-white);
 }
 
 a {
@@ -16,18 +31,18 @@ ul {
 }
 
 .logo-link {
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--logo-font);
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
 .logo-span {
-  color: #2e2f42;
+  color: var(--text-color);
 }
 
 .nav-link {
@@ -35,13 +50,13 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--text-color);
   text-decoration: none;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #404bbf;
+  color: var(--accent-color);
 }
 
 .contacts-address {
@@ -52,17 +67,17 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--secondary-color);
   text-decoration: none;
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
-  color: #404bbf;
+  color: var(--accent-color);
 }
 
 .hero-section {
-  background-color: #2e2f42;
+  background-color: var(--text-color);
 }
 
 .hero-title {
@@ -70,24 +85,24 @@ ul {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--text-color-white);
 }
 
 .hero-button {
-  background-color: #4d5ae5;
+  background-color: var(--primary-color);
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--text-color-white);
   cursor: pointer;
   border: none;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #404bbf;
+  background-color: var(--accent-color);
 }
 
 .features-section {
@@ -101,14 +116,14 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--text-color);
 }
 
 .features-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--secondary-color);
 }
 
 .team-section {
@@ -121,11 +136,11 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--text-color);
 }
 
 .team-item {
-  background-color: #ffffff;
+  background-color: var(--text-color-white);
 }
 
 .team-name {
@@ -133,14 +148,14 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--text-color);
 }
 
 .team-position {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--secondary-color);
 }
 
 .section-title {
@@ -149,7 +164,7 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--text-color);
 }
 
 .portfolio-title {
@@ -157,30 +172,29 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--text-color);
 }
 
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--secondary-color);
 }
 
 .site-footer {
-  background-color: #2e2f42;
+  background-color: var(--text-color);
 }
 
 .footer-logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--logo-font);
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #var(--primary-color);
   text-decoration: none;
-  display: inline-block;
   margin-bottom: 16px;
 }
 
