@@ -169,8 +169,6 @@ ul {
 
 .site-footer {
   background-color: #2e2f42;
-  padding: 40px;
-  text-align: center;
 }
 
 .footer-logo {
@@ -184,10 +182,6 @@ ul {
   text-decoration: none;
   display: inline-block;
   margin-bottom: 16px;
-}
-
-.logo-web {
-  color: #4d5ae5;
 }
 
 .logo-studio {
